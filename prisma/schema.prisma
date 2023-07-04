@@ -1,0 +1,85 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  name String?
+  email String? @unique
+  hashedPasword String?
+  createdAt DateTime? @default(now())
+  favoriteIds String[] @db.ObjectId @default([])
+  image String?
+  emailVerified Boolean?
+
+  posts Post[]
+  accounts Account[]
+}
+enum HeatingType {
+  GAS
+  ELECTRIC
+}
+
+enum PostType {
+  SALE
+  RENT
+}
+
+enum Status {
+  ON_HOLD
+  APPROVED
+}
+
+model Post {
+  id String @id @default(auto()) @map("_id") @db.ObjectId
+  price Int
+  location String
+  posttype PostType
+  lat  Float
+  lng  Float
+  title String
+  description String
+  imageUrls String[]
+  floor Int?
+  maxfloor Int?
+  surface Float
+  terrace Int
+  heating HeatingType
+  elevator Boolean
+  cableTv Boolean
+  internet Boolean
+  phone Boolean
+  garage Boolean
+  parking Boolean
+  registered Boolean
+  contact String
+  status Status @default(ON_HOLD)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId String @db.ObjectId
+}
+
+model Account {
+id String @id @default(auto()) @map("_id") @db.ObjectId
+userId String @db.ObjectId
+type String
+provider String
+providerAccountId String
+refresh_token String? @db.String
+access_token String? @db.String
+expires_at Int?
+token_type String?
+scope String?
+id_token String? @db.String
+session_state String?
+
+
+
+user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+@@unique([provider, providerAccountId])
+}
