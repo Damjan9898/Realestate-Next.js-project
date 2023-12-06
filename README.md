@@ -5,7 +5,7 @@
 
 ## How to Run the Web Application
 
-First, you need to install node modules 
+First, you need to install the node modules. Open your terminal, navigate to the main application directory and run this line:
 
 ```bash
 npm install
