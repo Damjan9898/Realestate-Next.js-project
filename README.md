@@ -17,7 +17,7 @@ Then you need to run the development server:
 npm run dev
 ```
 
-<p>Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.<br><br></p>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.<span><br><br></span>
 
 
 ## Application Features
