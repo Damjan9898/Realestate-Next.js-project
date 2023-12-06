@@ -17,7 +17,7 @@ Then you need to run the development server:
 npm run dev
 ```
 
-## Update .env file
+Update .env file
 
 
 Due to security risks, I had to delete the link to the database, and the API keys for Google registration. If you want to run the application, add the link of your MonogDB database, as well as the API keys from your Google console.
