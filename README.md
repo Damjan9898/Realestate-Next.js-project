@@ -30,5 +30,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     <li>Functionality for users to mark their favourite objects.</li>
     <li>Capability for users to upload and manage their own real estate listings.</li>
     <li>Functional Admin Panel</li>
+    <br><br>
 </ul>
+
+## Screenshots of main parts of the Web Application
+
 
