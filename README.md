@@ -39,7 +39,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
   ![de_1](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/08e934a8-8880-4efb-ac89-6e3ea3021033)
 
-2) Product View
+<h3>2) Product View</h3>
 
   ![de_2](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/a9bcc51e-15ec-4b1a-8a54-290ee8704edd)
 
