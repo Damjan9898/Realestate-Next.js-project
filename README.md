@@ -29,5 +29,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     <li>Advanced filtering options to narrow down search results.</li>
     <li>Functionality for users to mark their favourite objects.</li>
     <li>Capability for users to upload and manage their own real estate listings.</li>
+    <li>Functional Admin Panel</li>
 </ul>
 
