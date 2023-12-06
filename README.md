@@ -2,6 +2,7 @@
 
 <p>This project is a <strong>personal real estate web application</strong> built using <em>Next.js</em>. It's a showcase of my skills in modern web development, integrating technologies like <em>Prisma</em> and <em>Node</em>, along with <em>Google Auth 2</em> for user registration.</p>
 
+
 ## How to Run the Web Application
 
 First, you need to install node modules 
@@ -18,6 +19,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+
 ## Application Features
 
 <p>The application offers a variety of features for exploring and managing real estate listings:</p>
@@ -28,3 +30,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     <li>Functionality for users to mark their favourite objects.</li>
     <li>Capability for users to upload and manage their own real estate listings.</li>
 </ul>
+
