@@ -35,24 +35,24 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Screenshots of main parts of the Web Application
 
-1) Home Page
+<h3>1) Home Page</h3>
   ![de_1](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/08e934a8-8880-4efb-ac89-6e3ea3021033)
 
 2) Product View
 
-![de_2](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/a9bcc51e-15ec-4b1a-8a54-290ee8704edd)
+  ![de_2](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/a9bcc51e-15ec-4b1a-8a54-290ee8704edd)
 
 3) Registration ( With Google OAuth 2.0 )
 
-![de_3](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/80845d3b-6e68-4ea3-ae14-52a148c12965)
+  ![de_3](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/80845d3b-6e68-4ea3-ae14-52a148c12965)
 
 4) Add New Post
 
-![de_4](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/23c4d7dd-882b-49b8-97a2-4684af36c538)
+  ![de_4](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/23c4d7dd-882b-49b8-97a2-4684af36c538)
 
 5) Users Posts
 
-![de_5](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/be5aa9a5-de6a-4e52-ad64-6b6f362a23aa)
+  ![de_5](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/be5aa9a5-de6a-4e52-ad64-6b6f362a23aa)
 
 
 
