@@ -36,6 +36,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Screenshots of main parts of the Web Application
 
 1) <h3>Home Page</h3>
+
   ![de_1](https://github.com/Damjan9898/Realestate-Next.js-project/assets/73915350/08e934a8-8880-4efb-ac89-6e3ea3021033)
 
 2) Product View
