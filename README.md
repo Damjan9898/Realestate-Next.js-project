@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Real Estate Web Application
+
+<p>This project is a <strong>personal real estate web application</strong> built using <em>Next.js</em>. It's a showcase of my skills in modern web development, integrating technologies like <em>Prisma</em> and <em>Node</em>, along with <em>Google Auth 2</em> for user registration.</p>
 
 ## Getting Started
 
