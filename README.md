@@ -17,6 +17,24 @@ Then you need to run the development server:
 npm run dev
 ```
 
+## Update .env file
+
+
+Due to security risks, I had to delete the link to the database, and the API keys for Google registration. If you want to run the application, add the link of your MonogDB database, as well as the API keys from your Google console.
+
+```bash
+DATABASE_URL="ADD_DATABASE_LINK_HERE"
+NEXTAUTH_SECRET="NEXTAUTH_SECRET"
+
+GOOGLE_CLIENT_ID="ADD_GOOGLE_CLIENT_ID_HERE"
+GOOGLE_CLIENT_SECRET="ADD_GOOGLE_CLIENT_SECRET_HERE"
+NEXTAUTH_URL=http://localhost:3000
+
+NEXT_PUBLIC_GOOGLEMAPSKEY="ADD_NEXT_PUBLIC_GOOGLEMAPSKEY_HERE"
+```
+
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.<span><br><br></span>
 
 
